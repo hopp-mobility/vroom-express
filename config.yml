@@ -10,6 +10,7 @@ cliArgs:
   maxvehicles: 200 # max number of vehicles
   override: true # allow cli options override (-c, -g, -l, -t, and -x)
   path: '' # VROOM path (if not in $PATH)
+  vroom_command: '' # Full vroom command, useful for running more specific scripts
   port: 3000 # expressjs port
   router: 'osrm' # routing backend (osrm, libosrm, ors, or valhalla)
   timeout: 300000 # milli-seconds

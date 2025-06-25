@@ -45,6 +45,7 @@ const cliArgs = minimist(process.argv.slice(2), {
     router: router, // routing backend (osrm, libosrm or ors)
     threads: config_yml.cliArgs.threads, // number of threads to use (-t)
     timeout: config_yml.cliArgs.timeout, // milli-seconds.
+    vroom_command: config_yml.cliArgs.vroom_command, // the raw command
   },
 });
 
